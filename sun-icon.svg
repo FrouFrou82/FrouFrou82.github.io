@@ -1,0 +1,26 @@
+<article>
+  <h1>My Sunny Post</h1>
+  <p>Here’s a little sun icon to brighten things up:</p>
+
+  <svg width="48" height="48" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" style="shape-rendering: crispEdges;">
+    <!-- Background -->
+    <rect x="0" y="0" width="48" height="48" fill="#87ceeb"/>
+    
+    <!-- Sun circle -->
+    <rect x="18" y="18" width="12" height="12" fill="#ffdd00"/>
+    
+    <!-- Sun rays -->
+    <rect x="23" y="4" width="2" height="8" fill="#ffdd00"/>
+    <rect x="23" y="36" width="2" height="8" fill="#ffdd00"/>
+    <rect x="4" y="23" width="8" height="2" fill="#ffdd00"/>
+    <rect x="36" y="23" width="8" height="2" fill="#ffdd00"/>
+    
+    <!-- Diagonal rays -->
+    <rect x="8" y="8" width="2" height="8" fill="#ffdd00" transform="rotate(-45 8 8)"/>
+    <rect x="38" y="8" width="2" height="8" fill="#ffdd00" transform="rotate(45 38 8)"/>
+    <rect x="8" y="38" width="2" height="8" fill="#ffdd00" transform="rotate(45 8 38)"/>
+    <rect x="38" y="38" width="2" height="8" fill="#ffdd00" transform="rotate(-45 38 38)"/>
+  </svg>
+
+  <p>Isn’t it cheerful?</p>
+</article>
